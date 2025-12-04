@@ -27,7 +27,6 @@ static size_t	length_hex(unsigned long p_address)
 	return (i);
 }
 
-
 static char	*convert_hex(unsigned long p_address)
 {
 	char 			*p_address_hex;

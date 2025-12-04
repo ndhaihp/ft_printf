@@ -17,7 +17,8 @@ AR = ar rcs
 RM = rm -f
 
 SRC = ft_printf.c ft_putstr_fd.c ft_strlen.c ft_putnbr_fd.c	\
-	  ft_printf_c.c ft_printf_s.c ft_printf_p.c ft_printf_d_i.c 
+	  ft_printf_c.c ft_printf_s.c ft_printf_p.c ft_printf_d_i.c \
+	  ft_printf_u.c ft_printf_x_X.c ft_printf_pct.c
 
 OBJ=$(SRC:.c=.o)
 
